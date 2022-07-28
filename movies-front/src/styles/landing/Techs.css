@@ -1,0 +1,55 @@
+.techs {
+    padding: 100px 70px;
+    background-color: #F5F5F5;
+
+}
+
+.techs-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.techs-info__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;  
+}
+
+.techs-info__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.techs-info__stack {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.techs-info__stack-name {
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    text-align: center;
+    padding: 21px 0 22px;
+    width: 90px;
+    margin-right: 10px;
+
+}
