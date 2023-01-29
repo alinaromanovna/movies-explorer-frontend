@@ -1,0 +1,27 @@
+.navigation {
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__films {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: right;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation__save-films {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: right;
+    color: #000000;
+    margin-left: 16px;
+    text-decoration: none;
+}
+.active-page {
+    font-weight: 500;
+}

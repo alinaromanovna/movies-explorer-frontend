@@ -1,0 +1,114 @@
+.portfolio {
+   margin-top: 101px; 
+}
+
+.portfolio__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #A0A0A0;
+    text-align: start; 
+    margin: 0 0 50px; 
+}
+
+.link-conntainer {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-container__item:first-child {
+    padding-top: 0;
+}
+
+.link-container__item:last-child {
+    border-bottom: 0px;
+}
+
+.link-container__item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 19px;
+    border-bottom: 1px solid #E8E8E8;
+    
+}
+
+.link-container__item-name {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    max-width: 880px;
+    margin: 0;
+    text-align: start;
+}
+
+.link-container__item-link {
+    width: 29px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all;
+}
+
+.link-container__item-link:hover {
+    scale: 1.15;
+}
+
+.link-container__item-link-img {
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .portfolio {
+        margin-top: 91px; 
+     }
+}
+
+ @media screen and (max-width: 767px) {
+    .portfolio {
+        margin-top: 69px; 
+     }
+}
+
+ @media screen and (max-width: 767px) {
+    .portfolio__title {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 0 40px; 
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .link-container__item-name {
+        font-size: 28px;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+ @media screen and (max-width: 767px) {
+    .link-container__item-name {
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .link-container__item-link {
+        width: 27px;
+    }
+}
+
+ @media screen and (max-width: 767px) {
+    .link-container__item-link {
+        width: 18px;
+    }
+}

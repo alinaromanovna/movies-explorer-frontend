@@ -1,0 +1,120 @@
+.techs {
+    padding: 100px 70px;
+    background-color: #F5F5F5;
+    margin: 0 -70px;
+}
+
+.techs-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.techs-info__title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin: 90px 0 0; 
+}
+
+.techs-info__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin: 26px auto 0;
+    max-width: 460px;
+}
+
+.techs-info__stack {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 90px);
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.techs-info__stack-name {
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    padding: 21px 0 22px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .techs {
+        padding: 90px 50px;
+        margin: 0 -50px;
+    
+    }
+ }
+ @media screen and (max-width: 767px) {
+    .techs {
+        padding: 70px 10px;
+        margin: 0 -10px;
+        background-color: #FFFFFF;
+    
+    }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .techs-info__title {
+        margin: 85px 0 0; 
+    }
+ }
+ @media screen and (max-width: 767px) {
+    .techs-info__title {
+        font-size: 30px;
+        line-height: 36px;
+        margin: 60px 0 0; 
+    }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .techs-info__subtitle {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 17px auto 0;
+    }
+ }
+ @media screen and (max-width: 767px) {
+    .techs-info__subtitle {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 24px auto 0;
+    }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .techs-info__stack {
+        grid-template-columns: repeat(auto-fit, 84px);
+        margin-top: 83px;
+    }
+ }
+ @media screen and (max-width: 767px) {
+    .techs-info__stack {
+        grid-template-columns: repeat(2, 84px);
+        margin-top: 50px;
+    }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .techs-info__stack-name {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 21px 0 21px;
+    }
+ }

@@ -1,0 +1,44 @@
+.popap-menu {
+    display: flex;
+    justify-content: flex-end;
+    background: #000000;
+    opacity: 0.3;
+
+}
+
+.popap-menu-box {
+    width: 520px;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.button-exit{
+    position: absolute;
+    right: 22px;
+    top: 22px;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.profile-link:after{
+    content: "";
+    background-image: url('../../images/profile.png');
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+}

@@ -1,0 +1,30 @@
+.header-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid #000000;
+}
+
+.header-name__title {
+    max-width: 600px;
+    margin: 0 0 23px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    text-align: start;
+
+}
+ @media screen and (max-width: 321px) {
+    .header-name__title {
+        width: 100%;
+        margin: 0 0 28px;
+        font-size: 18px;
+        line-height: 22px;
+    
+    }
+ }

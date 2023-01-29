@@ -1,0 +1,27 @@
+.auth-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.auth-header__logo {
+    width: 38px;
+    object-fit: cover;
+}
+
+.auth-header__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 40px 0 0;
+}
+
+@media screen and (max-width: 320px) {
+    .auth-header {
+        align-items: center;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+}
