@@ -6,13 +6,13 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     .saved-movies {
         padding: 0 30px;
     }
  }
 
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 767px) {
     .saved-movies {
         padding: 0 10px;
     }

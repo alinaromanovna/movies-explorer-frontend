@@ -10,10 +10,10 @@ function Movies() {
     return (
         <>
         <Header />
-        <div className="movies">
+        <main className="movies">
         <SearchForm />
         <MoviesCardList />
-        </div>
+        </main>
 
         <Footer />
         </>

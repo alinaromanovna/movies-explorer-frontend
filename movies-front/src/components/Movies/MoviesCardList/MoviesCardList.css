@@ -33,8 +33,11 @@
     background: #F9F9F9;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
+}
 
-
+.add-button:hover {
+    scale: 1.2;
 }
 
 .add-button__name {

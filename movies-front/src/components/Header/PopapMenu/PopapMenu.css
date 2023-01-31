@@ -1,44 +1,130 @@
-.popap-menu {
-    display: flex;
-    justify-content: flex-end;
-    background: #000000;
-    opacity: 0.3;
-
+.popap-menu_closed {
+    display: none;
 }
 
 .popap-menu-box {
-    width: 520px;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+.popap-menu_opened {
+    display: flex;
+    justify-content: flex-end;
+    background-color: RGB(0, 0, 0, 0.3);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+}
+}
+
+@media screen and (max-width: 768px) {
+.popap-menu-box {
+    width: 100%;
+    max-width: 520px;
     height: 100%;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+}
 }
 
+@media screen and (max-width: 768px) {
 .button-exit{
+    display: block;
     position: absolute;
     right: 22px;
     top: 22px;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    background: no-repeat center url('../../../images/exit.svg');
+    border: none;
+    cursor: pointer;
+
+}
 }
 
-.burger-menu {
+@media screen and (max-width: 768px) {
+    .popap-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 159px 0 0;
+    text-decoration: none;
+    gap: 28px;
+}
 }
 
+@media screen and (max-width: 768px) {
+.popap-menu__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+}
+}
+
+@media screen and (max-width: 768px) {
+.burger-menu__link-active {
+    border-bottom: 1px solid black; 
+    transition: 0.3s all;
+}
+}
+
+/* @media screen and (max-width: 768px) {
+.burger-menu__link-active:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #000;  
+}
+} */
+
+@media screen and (max-width: 768px) {
 .profile-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    margin-bottom: 92px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
 }
 
+@media screen and (max-width: 768px) {
 .profile-link:after{
     content: "";
-    background-image: url('../../images/profile.png');
+    display: block;
+    background: no-repeat center url('../../../images/profile.png');
     width: 30px;
     height: 30px;
     margin-left: 13px;
+    background-color: #F9F9F9;
+    border-radius: 6px;
+
 }
+}
+
+@media screen and (max-width: 320px) {
+    .profile-link {
+        margin-bottom: 55px;
+        
+    }
+    }

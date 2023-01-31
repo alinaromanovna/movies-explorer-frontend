@@ -13,6 +13,10 @@
     text-decoration: none;
 }
 
+.navigation__films:hover {
+    scale: 1.1;   
+}
+
 .navigation__save-films {
     font-weight: 400;
     font-size: 13px;
@@ -21,6 +25,10 @@
     color: #000000;
     margin-left: 16px;
     text-decoration: none;
+}
+
+.navigation__save-films:hover {
+    scale: 1.1;
 }
 .active-page {
     font-weight: 500;

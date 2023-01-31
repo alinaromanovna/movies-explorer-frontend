@@ -18,7 +18,7 @@
     margin: 40px 0 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .auth-header {
         align-items: center;
         width: 100%;

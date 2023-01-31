@@ -55,7 +55,7 @@
     margin-top: 17px;
 }
 
-.like {
+.card-button {
     height: 30px;
     width: 30px;
     display: flex;
@@ -64,12 +64,24 @@
     padding: 10px 8px 8px 8px;
     margin-top: 9px;
     box-sizing: border-box;
-
-
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
-.like__img {
+.card-button__img {
     object-fit: cover;
+}
+
+.card-button__delete {
+    
+    object-fit: cover;
+    border: none;
+    outline: none;
+}
+
+.card-button__delete:hover {
+    background: no-repeat center url('../../../images/delete-card.svg');
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -105,10 +117,16 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .like {
+    .card-button {
         margin-top: 8px;
         
-    
+    }
+}
+
+@media screen and (max-width: 767px){
+    .card-button {
+        margin-top: 7px;
+        
     }
 }
 

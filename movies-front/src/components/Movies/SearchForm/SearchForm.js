@@ -7,10 +7,7 @@ function SearchForm() {
         <section className="search">
             <form className="search-form">
                 <div className="search-line">
-                    <label htmlFor="film">
-                    <input className="search-line__input" placeholder="Фильм" type="text" name="film" placrholder="Фильм" id="film">
-                    </input>
-                    </label>
+                    <input className="search-line__input" placeholder="Фильм" type="text" name="film" placrholder="Фильм" id="film" />
                     <div className="search-line__submit">
                         <button className="search-line__submit-button" type="submit" ><img className="search-line__submit-button-img" src={SearchButton}></img></button>
                     </div>
@@ -23,4 +20,3 @@ function SearchForm() {
     )
     }
 export default SearchForm;
-// use position for input img-search and submit-button

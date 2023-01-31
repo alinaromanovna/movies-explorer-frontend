@@ -19,12 +19,7 @@
 
 }
 
-.filter-checkbox__button:checked + .filter-checkbox__label::before {
-    position: absolute;
-    left: 16px;
-}
-
-.filter-checkbox__label::before {
+.filter-checkbox__label:before {
     content: "";
     width: 16px;
     height: 16px;
@@ -39,10 +34,13 @@
     transition: .4s ease-in .1s;
 }
 
+.filter-checkbox__button:checked + .filter-checkbox__label:before {
+    position: absolute;
+    left: 16px;
+}
+
 .filter-checkbox__sign {
     margin-left: 14px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
