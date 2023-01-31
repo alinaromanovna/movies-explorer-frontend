@@ -1,8 +1,8 @@
 .promo {
-width: auto;
-background-color: #F3C1F8;
-padding: 0px 70px 50px 70px;
-margin: 0 -70px;
+    width: auto;
+    background-color: #F3C1F8;
+    padding: 0px 70px 50px 70px;
+    margin: 0 -70px;
 }
 
 .promo__header {
@@ -18,7 +18,7 @@ margin: 0 -70px;
 .logo {
     max-width: 38px;
     margin: 18px 0;
-    
+
 }
 
 .auth {
@@ -101,8 +101,8 @@ margin: 0 -70px;
 }
 
 .web-circle_img {
-   max-width: 310px;
-   object-fit: cover;
+    max-width: 310px;
+    object-fit: cover;
 }
 
 .learn-more {
@@ -116,7 +116,7 @@ margin: 0 -70px;
 }
 
 .learn-more__button {
-    border: 1px solid rgb(0,0,0, 0.6);
+    border: 1px solid rgb(0, 0, 0, 0.6);
     border-radius: 3px;
     background-color: #F3C1F8;
     outline: none;
@@ -134,28 +134,29 @@ margin: 0 -70px;
     .promo {
         padding: 0px 50px 66px 50px;
         margin: 0 -50px;
-    }   
- }
- @media screen and (max-width: 767px) {
+    }
+}
+
+@media screen and (max-width: 767px) {
     .promo {
         padding: 0px 10px 30px 10px;
         margin: 0 -10px;
-        }
- }
+    }
+}
 
- @media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     .promo__header {
         margin: 0 -20px;
     }
- }
+}
 
- @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .promo__header {
         padding: 0 4px;
     }
- }
+}
 
- @media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     .promo__description {
         display: flex;
         flex-direction: column-reverse;
@@ -186,7 +187,7 @@ margin: 0 -70px;
         margin-top: 22px;
         text-align: center;
     }
-} 
+}
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .learn-more {
@@ -221,7 +222,7 @@ margin: 0 -70px;
         align-items: center;
         margin-top: 70px;
     }
-    
+
 }
 
 @media screen and (max-width: 767px) {
@@ -230,7 +231,7 @@ margin: 0 -70px;
         align-items: center;
         margin-top: 44px;
     }
-    
+
 }
 
 @media screen and (max-width: 767px) {
@@ -242,7 +243,7 @@ margin: 0 -70px;
         text-align: center;
 
     }
-    
+
 }
 
 @media screen and (max-width: 767px) {
@@ -255,8 +256,9 @@ margin: 0 -70px;
 @media screen and (max-width: 767px) {
     .web-circle_img {
         max-width: 210px;
-     }
+    }
 }
+
 @media screen and (max-width: 767px) {
     .learn-more {
         justify-content: center;

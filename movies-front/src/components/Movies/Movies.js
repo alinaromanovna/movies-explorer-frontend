@@ -9,15 +9,15 @@ import Footer from '../Footer/Footer';
 function Movies() {
     return (
         <>
-        <Header />
-        <main className="movies">
-        <SearchForm />
-        <MoviesCardList />
-        </main>
+            <Header />
+            <main className="movies">
+                <SearchForm />
+                <MoviesCardList />
+            </main>
 
-        <Footer />
+            <Footer />
         </>
     )
 }
-    
+
 export default Movies;

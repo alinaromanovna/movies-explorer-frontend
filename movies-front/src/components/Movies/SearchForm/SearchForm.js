@@ -13,10 +13,10 @@ function SearchForm() {
                     </div>
                 </div>
                 <div className="search-form__chechbox">
-                <FilterCheckbox/>
+                    <FilterCheckbox />
                 </div>
             </form>
         </section>
     )
-    }
+}
 export default SearchForm;

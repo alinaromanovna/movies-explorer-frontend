@@ -6,7 +6,7 @@ const techs = [{
     name: 'HTML',
 }, {
     id: 2,
-    name:'CSS',
+    name: 'CSS',
 }, {
     id: 3,
     name: 'JS',
@@ -26,19 +26,19 @@ const techs = [{
 
 function Techs(props) {
     return (
-       <section className="techs">
-           <HeaderName title="Технологии"/>
-           <div className="techs-info">
+        <section className="techs">
+            <HeaderName title="Технологии" />
+            <div className="techs-info">
                 <h2 className="techs-info__title">7 технологий</h2>
                 <p className="techs-info__subtitle">На курсе веб-разработки мы освоили технологии, которые применили в дипломном проекте.</p>
                 <div className="techs-info__stack">
-                {techs.map((tech) => (
-                    <div key={tech.id} className="techs-info__stack-name">{tech.name}</div>
-                ))
-                }
+                    {techs.map((tech) => (
+                        <div key={tech.id} className="techs-info__stack-name">{tech.name}</div>
+                    ))
+                    }
                 </div>
-           </div>
-       </section> 
+            </div>
+        </section>
     )
 }
 export default Techs;

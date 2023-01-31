@@ -27,6 +27,6 @@ function Promo(props) {
                 <button className="learn-more__button">Узнать больше</button>
             </div>
         </section>
-           )
+    )
 }
 export default Promo;

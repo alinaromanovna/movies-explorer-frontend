@@ -14,7 +14,7 @@
 }
 
 .navigation__films:hover {
-    scale: 1.1;   
+    scale: 1.1;
 }
 
 .navigation__save-films {
@@ -30,6 +30,7 @@
 .navigation__save-films:hover {
     scale: 1.1;
 }
+
 .active-page {
     font-weight: 500;
 }

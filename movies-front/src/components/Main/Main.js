@@ -11,18 +11,18 @@ import { NavLink } from 'react-router-dom';
 function Main() {
     return (
         <>
-        <main className="main">
-        <Promo>
-            <NavLink to="/signup" className="auth__signup">Регистрация</NavLink>
-            <NavLink to="/signin" className="auth__signin">Войти</NavLink>
-        </Promo>
-        <AboutProject />
-        <Techs />
-        <AboutMe />
-        </main>
-        <Footer />
+            <main className="main">
+                <Promo>
+                    <NavLink to="/signup" className="auth__signup">Регистрация</NavLink>
+                    <NavLink to="/signin" className="auth__signin">Войти</NavLink>
+                </Promo>
+                <AboutProject />
+                <Techs />
+                <AboutMe />
+            </main>
+            <Footer />
         </>
     )
 }
-    
+
 export default Main;

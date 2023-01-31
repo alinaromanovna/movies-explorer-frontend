@@ -10,9 +10,9 @@
     .movies {
         padding: 0 30px;
     }
- }
+}
 
- @media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .movies {
         padding: 0 10px;
     }

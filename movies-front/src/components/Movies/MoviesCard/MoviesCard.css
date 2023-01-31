@@ -28,7 +28,7 @@
     flex-direction: column;
     align-items: flex-start;
     max-width: 290px;
-    
+
 }
 
 .description-card__film-name {
@@ -45,6 +45,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .description-card__film-time {
     font-family: 'Inter';
     font-style: normal;
@@ -74,7 +75,7 @@
 }
 
 .card-button__delete {
-    
+
     object-fit: cover;
     border: none;
     outline: none;
@@ -100,9 +101,10 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .description-card {
         max-width: 260px;
-        
+
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .description-card__film-name {
         max-width: 260px;
@@ -119,14 +121,14 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .card-button {
         margin-top: 8px;
-        
+
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     .card-button {
         margin-top: 7px;
-        
+
     }
 }
 
@@ -160,10 +162,10 @@
 }
 
 @media screen and (max-width: 767px) {
-.description-card__film-time {
-    font-size: 10px;
-    line-height: 12px;
-    margin-top: 14px;
+    .description-card__film-time {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 14px;
     }
 }
 

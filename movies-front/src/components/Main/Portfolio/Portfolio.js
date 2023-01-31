@@ -9,7 +9,7 @@ function Portfolio(props) {
             <ul className="link-conntainer">
                 <li className="link-container__item">
                     <h3 className="link-container__item-name">Статичный сайт</h3>
-                    <a className="link-container__item-link" href="/" target="_blank"><img className="link-container__item-link-img" src={LinkVektor} alt="arrow" href=""></img></a>
+                    <a className="link-container__item-link" href="https://alinaromanovna.github.io/how-to-learn-1/" target="_blank"><img className="link-container__item-link-img" src={LinkVektor} alt="arrow" href=""></img></a>
                 </li>
                 <li className="link-container__item">
                     <h3 className="link-container__item-name">Адаптивный сайт</h3>

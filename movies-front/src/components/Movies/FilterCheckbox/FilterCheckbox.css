@@ -34,7 +34,7 @@
     transition: .4s ease-in .1s;
 }
 
-.filter-checkbox__button:checked + .filter-checkbox__label:before {
+.filter-checkbox__button:checked+.filter-checkbox__label:before {
     position: absolute;
     left: 16px;
 }

@@ -9,8 +9,6 @@
 .header-name__title {
     max-width: 600px;
     margin: 0 0 23px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 27px;
@@ -19,12 +17,13 @@
     text-align: start;
 
 }
- @media screen and (max-width: 321px) {
+
+@media screen and (max-width: 321px) {
     .header-name__title {
         width: 100%;
         margin: 0 0 28px;
         font-size: 18px;
         line-height: 22px;
-    
+
     }
- }
+}
