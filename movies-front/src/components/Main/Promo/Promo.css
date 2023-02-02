@@ -95,12 +95,12 @@
     text-align: start;
 }
 
-.wed-circle {
+.web-circle {
     display: flex;
     flex-direction: column;
 }
 
-.web-circle_img {
+.web-circle__img {
     max-width: 310px;
     object-fit: cover;
 }

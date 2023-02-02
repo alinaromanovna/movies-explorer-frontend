@@ -20,7 +20,7 @@ function AboutMe(props) {
                     </div>
                 </div>
                 <div className="avatar">
-                    <img src={Avatar} className="avatar_img" alt="avatar"></img>
+                    <img src={Avatar} className="avatar__img" alt="avatar"></img>
                 </div>
             </div>
             <Portfolio />

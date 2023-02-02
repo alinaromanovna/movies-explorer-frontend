@@ -6,18 +6,24 @@ function Portfolio(props) {
     return (
         <div className="portfolio">
             <h2 className="portfolio__title">Портфолио</h2>
-            <ul className="link-conntainer">
+            <ul className="link-container">
                 <li className="link-container__item">
-                    <h3 className="link-container__item-name">Статичный сайт</h3>
-                    <a className="link-container__item-link" href="https://alinaromanovna.github.io/how-to-learn-1/" target="_blank"><img className="link-container__item-link-img" src={LinkVektor} alt="arrow" href=""></img></a>
+                <a className="item-link" href="https://alinaromanovna.github.io/how-to-learn-1/" target="_blank">
+                    <h3 className="item-link__name">Статичный сайт</h3>
+                    <img className="item-link__img" src={LinkVektor} alt="arrow"></img>
+                </a>
                 </li>
                 <li className="link-container__item">
-                    <h3 className="link-container__item-name">Адаптивный сайт</h3>
-                    <a className="link-container__item-link" href="https://alinaromanovna.github.io/russian-travel/index.html" target="_blank"><img className="link-container__item-link-img" src={LinkVektor} alt="arrow" href=""></img></a>
+                <a className="item-link" href="https://alinaromanovna.github.io/russian-travel/index.html" target="_blank">
+                    <h3 className="item-link__name">Адаптивный сайт</h3>
+                    <img className="item-link__img" src={LinkVektor} alt="arrow"></img>
+                </a>
                 </li>
                 <li className="link-container__item">
-                    <h3 className="link-container__item-name">Одностраничное приложение</h3>
-                    <a className="link-container__item-link" href="https://github.com/alinaromanovna/react-mesto-api-full" target="_blank"><img className="link-container__item-link-img" src={LinkVektor} alt="arrow" href=""></img></a>
+                <a className="item-link" href="https://github.com/alinaromanovna/react-mesto-api-full" target="_blank">
+                    <h3 className="item-link__name">Одностраничное приложение</h3>
+                    <img className="item-link__img" src={LinkVektor} alt="arrow"></img>
+                </a>
                 </li>
             </ul>
         </div>

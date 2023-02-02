@@ -74,14 +74,13 @@
     object-fit: cover;
 }
 
-.card-button__delete {
-
+.card-button_type_delete {
     object-fit: cover;
     border: none;
     outline: none;
 }
 
-.card-button__delete:hover {
+.card-button_type_delete:hover {
     background: no-repeat center url('../../../images/delete-card.svg');
 }
 

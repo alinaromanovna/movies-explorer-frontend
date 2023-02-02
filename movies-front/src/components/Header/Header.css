@@ -17,6 +17,7 @@
     flex-direction: row;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .account {
@@ -30,7 +31,7 @@
 .icon {
     width: 12px;
     height: 12px;
-    background: #F9F9F9 url('../../images/profile.png') center no-repeat;
+    background: #F9F9F9 url('../../images/profile.svg') center no-repeat;
     border-radius: 6px;
     margin-left: 13px;
     object-fit: cover;
@@ -77,6 +78,7 @@
         padding: 0;
         border: none;
         cursor: pointer;
+        background-color: transparent;
 
     }
 }

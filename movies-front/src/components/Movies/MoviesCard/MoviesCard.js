@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import Like from '../../../images/like.png';
+import Like from '../../../images/like-active.svg';
 import NoLike from '../../../images/no-like.svg';
 import './MoviesCard.css'
 
@@ -26,9 +26,9 @@ function MoviesCard(props) {
                     <span className="description-card__film-time">{props.card.time}</span>
                 </div>
                 {location.pathname === '/saved-movies' ?
-                    <button className="card-button card-button__delete" onClick={deleteCard}></button>
+                    <button className="card-button card-button_type_delete" onClick={deleteCard}></button>
                     :
-                    <button className="card-button card-button__save" onClick={saveCard}>
+                    <button className="card-button card-button_type_save" onClick={saveCard}>
                         <img className="card-button__img" src={isLiked ? Like : NoLike} alt={location.pathname === '/saved-movies' ? "" : 'like'}>
                         </img>
                     </button>

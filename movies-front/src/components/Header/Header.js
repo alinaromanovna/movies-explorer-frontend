@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import Logo from '../../images/logo.png';
+import Logo from '../../images/logo.svg';
 import Navigation from '../Navigation/Navigation';
 import './Header.css';
 import PopapMenu from './PopapMenu/PopapMenu.js';
@@ -27,10 +27,10 @@ function Header() {
                     <NavLink to="/movies" className="navigation__films" activeClassName="active-page">Фильмы</NavLink>
                     <NavLink to="/saved-movies" className="navigation__save-films" activeClassName="active-page">Сохранённые фильмы</NavLink>
                 </Navigation>
-                <div className="profile-box">
+                <Link to="/profile" className="profile-box">
                     <p className="account">Аккаунт</p>
                     <div className="icon"></div>
-                </div>
+                </Link>
                 <button className="burger-menu" onClick={handleOpenBurger}></button>
             </header>
             <PopapMenu isOpen={isOpenBurgerMenu} onClose={handleCloseBurger} />

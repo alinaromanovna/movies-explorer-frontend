@@ -78,7 +78,7 @@ function MoviesCardList() {
             </ul>
             <div className="add-button-box">
                 <button className="add-button">
-                    <p className="add-button__name">Ещё</p>
+                    <span className="add-button__name">Ещё</span>
                 </button>
             </div>
         </section>

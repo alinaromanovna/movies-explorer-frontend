@@ -1,4 +1,4 @@
-.popap-menu_closed {
+.popap-burger-menu { 
     display: none;
 }
 
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .popap-menu_opened {
+    .popap-burger-menu_opened {
         display: flex;
         justify-content: flex-end;
         background-color: RGB(0, 0, 0, 0.3);
@@ -74,12 +74,13 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 22px;
+        color: #000;
         cursor: pointer;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .burger-menu__link-active {
+    .popap-menu__link_active {
         border-bottom: 1px solid black;
         transition: 0.3s all;
     }
@@ -90,6 +91,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
+        color: #000;
         margin-bottom: 92px;
         text-decoration: none;
         display: flex;
@@ -103,7 +105,7 @@
     .profile-link:after {
         content: "";
         display: block;
-        background: no-repeat center url('../../../images/profile.png');
+        background: no-repeat center url('../../../images/profile.svg');
         width: 30px;
         height: 30px;
         margin-left: 13px;

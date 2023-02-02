@@ -10,7 +10,6 @@ function Register(props) {
         <section className="register">
             <div className="register-box">
                 <AuthHeader title={'Добро пожаловать!'} />
-                <main>
                     <form className="register-form">
                         <label className="register-form__label" htmlFor="name">Имя</label>
                         <input className="register-form__input" type="text" id="name" name="name" required></input>
@@ -25,7 +24,6 @@ function Register(props) {
                     <SubmitBox button={'Зарегистрироваться'} text={'Уже зарегистрированы?'}>
                         <Link to="/signin" className="auth-question__link">Войти</Link>
                     </SubmitBox>
-                </main>
             </div>
         </section>
     )
