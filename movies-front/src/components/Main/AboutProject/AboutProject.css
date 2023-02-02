@@ -1,0 +1,297 @@
+.about {
+    padding: 110px 0px;
+    background-color: #FFFFFF;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    margin-bottom: 110px;
+    margin-top: 70px;
+}
+
+.description-work {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.description-time {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.description-work__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    text-align: start;
+    margin: 0;
+}
+
+.description-work__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    text-align: start;
+    margin: 26px 0 0;
+}
+
+.description-time__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    text-align: start;
+    margin: 0;
+
+}
+
+.description-time__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    text-align: start;
+    margin: 26px 0 0;
+}
+
+.timetable {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.timetable-backend {
+    width: 228px;
+
+}
+
+.timetable-backend__week {
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 9px 0;
+    margin: 0;
+    /* border: 1px solid #000000; */
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.timetable-frontend {
+    width: calc(100% - 228px);
+
+}
+
+.timetable-backend__sign {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A0A0A0;
+    display: block;
+    margin-top: 14px;
+}
+
+.timetable-frontend__week {
+    background-color: #F2F2F2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    padding: 9px 0;
+
+    margin: 0;
+}
+
+.timetable-frontend__sign {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A0A0A0;
+    display: block;
+    margin-top: 14px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .about {
+        padding: 90px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        padding: 70px 0px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .description {
+        margin-bottom: 93px;
+        column-gap: 30px;
+
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .description {
+        grid-template-columns: 1fr;
+        row-gap: 56px;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description-time {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description-work__title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .description-work__subtitle {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 22px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description-work__subtitle {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 16px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description-time__title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .description-time__subtitle {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 22px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description-time__subtitle {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 16px 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .timetable-backend {
+        width: 140px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timetable-backend {
+        width: 100px;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .timetable-frontend {
+        width: calc(100% - 140px);
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timetable-frontend {
+        width: calc(100% - 100px);
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .timetable-backend__week {
+        padding: 9px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timetable-backend__week {
+        font-size: 11px;
+        line-height: 13px;
+        padding: 11px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timetable-backend__sign {
+        font-size: 11px;
+        line-height: 13px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .timetable-frontend__week {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 9px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timetable-frontend__week {
+        font-size: 11px;
+        line-height: 13px;
+        padding: 11px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timetable-frontend__sign {
+        font-size: 11px;
+        line-height: 13px;
+        margin-top: 10px;
+    }
+}
